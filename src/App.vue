@@ -36,7 +36,7 @@
       </p>
       <div class="flex space-x-4 items-center">
         <div>
-          Last update: March 8, 2022
+          Updated March 8, 2022
         </div>
         <div>
           <a href="https://github.com/virae/brands-in-russia" target="_blank" title="Open on Github">
