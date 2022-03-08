@@ -1,5 +1,68 @@
 export default [
   {
+    id: 'mondelez',
+    name: 'Mondelez',
+    description: '',
+    status: -1,
+    twitter: 'MDLZ',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'philip-morris',
+    name: 'Philip Morris',
+    description: '',
+    status: -1,
+    twitter: 'InsidePMI',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'papa-johns',
+    name: 'Papa John\'s',
+    description: '',
+    status: -1,
+    twitter: 'PapaJohns',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'kelloggs',
+    name: 'Kellogg\'s',
+    description: '',
+    status: -1,
+    twitter: 'kelloggsus',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'honeywell',
+    name: 'Honeywell',
+    description: '',
+    status: -1,
+    twitter: 'honeywell',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'hilton',
+    name: 'Hilton',
+    description: '',
+    status: -1,
+    twitter: 'hiltonhotels',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'herbalife',
+    name: 'Herbalife',
+    description: '',
+    status: -1,
+    twitter: 'Herbalife',
+    facebook: '',
+    category: ''
+  },
+  {
     id: 'coca-cola',
     name: 'Coca-Cola',
     description: '',
