@@ -19,12 +19,11 @@ h1 {
   }
 }
 h2 {
-  @apply max-w-5xl mb-8 leading-none font-semibold;
+  @apply max-w-5xl leading-none font-semibold mb-4;
 
   font-size: 2rem;
 
   @screen md {
-    @apply mb-16;
     font-size: 3rem;
   }
 
@@ -33,12 +32,15 @@ h2 {
   }
 
   @screen xl {
-    @apply mb-32;
     font-size: 5rem;
   }
 }
+h3 {
+  @apply text-lg md:text-2xl font-bold mb-8 md:mb-16 border-b pb-4;
+}
+
 .tiles {
-  @apply grid grid-cols-3 gap-x-16 gap-y-16;
+  @apply grid grid-cols-3 gap-x-16 gap-y-8;
 
   @screen md {
     @apply grid-cols-3 gap-x-16 gap-y-8;

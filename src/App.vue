@@ -14,6 +14,12 @@
       <h2>
         Open in Russia
       </h2>
+      <p class="mb-8 md:mb-16 xl:mb-24 text-lg text-gray-600 flex items-center">
+        <svg height="18" width="18" viewBox="0 0 100 100" class="text-green-600 hidden md:block mr-2">
+          <circle cx="50" cy="50" r="40" fill="currentColor" />
+        </svg>
+        <span>Brands and companies open or operating in Russia</span>
+      </p>
 
       <div class="tiles">
         <Brand v-for="brand in openBrands" :key="brand.id" :brand="brand" />
@@ -23,9 +29,15 @@
       <h2>
         Closed or limited
       </h2>
+      <p class="mb-8 md:mb-16 xl:mb-24 text-lg text-gray-600 flex items-center">
+        <svg height="18" width="18" viewBox="0 0 100 100" class="text-red-600 hidden md:block mr-2">
+          <circle cx="50" cy="50" r="40" fill="currentColor" />
+        </svg>
+        <span>Brands and companies closed or with limited business presence in Russia.</span>
+      </p>
 
       <div v-for="(category, index) in brandsByCategory" :key="index" class="mb-16 md:mb-32">
-        <h3 class="text-lg md:text-2xl font-bold mb-8 md:mb-16">{{ index }}</h3>
+        <h3>{{ index }}</h3>
         <div class="tiles">
           <Brand v-for="brand in category" :key="brand.id" :brand="brand" />
         </div>
