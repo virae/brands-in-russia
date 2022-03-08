@@ -27,13 +27,12 @@ export default {
       return `brands/optimized/${this.brand.id}.png`
     },
     twitterProfile() {
-      return `https://twitter.com/compose/tweet?text=Hey+@${this.brand.twitter}`
+      return `https://twitter.com/compose/tweet?text=Hey%20%40${this.brand.twitter}%20.........................%20%28via%20https%3A%2F%2Fwww.brandsinrussia.com%29`
     }
   },
 
   methods: {
     visibilityChanged(isVisible) {
-      console.log(isVisible)
       this.isVisible = isVisible
     }
   },
