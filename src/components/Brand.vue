@@ -1,7 +1,7 @@
 <template>
-  <div class="Brand" :class="{'Brand--small': brand.small}" v-observe-visibility="{ callback: visibilityChanged, once: true }">
-    <div class="Brand__image" v-if="isVisible">
-      <img class="Brand__logo" :src="logo" :alt="brand.name" />
+  <div class="Brand" :class="{'Brand--small': brand.small}">
+    <div class="Brand__image">
+      <img class="Brand__logo" :src="logo" :alt="brand.name" loading="lazy" />
     </div>
     <div v-if="brand.status === -1" class="mt-6 font-bold text-blue-500 cursor-pointer hover:bg-blue-600 px-4 py-1 bg-blue-500 text-white rounded-full border">
       <a :href="twitterProfile" target="_blank">Tweet</a>
@@ -16,12 +16,6 @@ export default {
     default: () => {}
   },
 
-  data() {
-    return {
-      isVisible: false
-    }
-  },
-
   computed: {
     logo() {
       return `brands/optimized/${this.brand.id}.png`
@@ -29,13 +23,7 @@ export default {
     twitterProfile() {
       return `https://twitter.com/compose/tweet?text=Hey%20%40${this.brand.twitter}%20.........................%20%28via%20https%3A%2F%2Fwww.brandsinrussia.com%29`
     }
-  },
-
-  methods: {
-    visibilityChanged(isVisible) {
-      this.isVisible = isVisible
-    }
-  },
+  }
 }
 </script>
 
