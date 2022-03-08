@@ -775,7 +775,7 @@ export default [
     id: 'danone',
     name: 'Danone',
     description: '',
-    status: 1,
+    status: -1,
     twitter: 'danone',
     facebook: '',
     category: 'Food & Beverages'
