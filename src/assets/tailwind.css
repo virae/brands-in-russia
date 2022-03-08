@@ -45,23 +45,23 @@ h2 {
   }
 
   @screen lg {
-    @apply grid-cols-4 gap-x-16 gap-y-16;
+    @apply grid-cols-4 gap-x-16;
   }
 
   @screen xl {
-    @apply grid-cols-6 gap-x-16 gap-y-16;
+    @apply grid-cols-6 gap-x-16;
   }
 
   @screen 2xl {
-    @apply grid-cols-8 gap-x-16 gap-y-16;
+    @apply grid-cols-8 gap-x-16;
   }
 
   @screen 3xl {
-    @apply grid-cols-8 gap-x-32 gap-y-32;
+    @apply grid-cols-8 gap-x-32;
   }
 
   @screen 4xl {
-    @apply grid-cols-8 gap-x-48 gap-y-32;
+    @apply grid-cols-8 gap-x-48;
   }
 }
 .wrapper {

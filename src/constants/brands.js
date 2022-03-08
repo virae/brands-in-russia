@@ -5,7 +5,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'mcdonalds',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'kfc',
@@ -13,7 +14,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'kfc',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'coca-cola',
@@ -21,7 +23,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'cocacola',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'pepsi',
@@ -29,7 +32,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'pepsico',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'unilever',
@@ -37,7 +41,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'unilever',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'uniqlo',
@@ -45,7 +50,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'uniqlousa',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'danone',
@@ -53,7 +59,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'danone',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'nestle',
@@ -61,7 +68,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'Nestle',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'metro',
@@ -69,7 +77,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'Metro Cash & Carry',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'pirelli',
@@ -77,7 +86,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'pirellisport',
-    facebook: ''
+    facebook: '',
+    category: ''
   },
   {
     id: 'google',
@@ -86,7 +96,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Tech'
   },
   {
     id: 'adobe',
@@ -95,7 +106,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Tech'
   },
   {
     id: 'nintendo',
@@ -104,7 +116,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Tech'
   },
   {
     id: 'dropbox',
@@ -113,7 +126,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Tech'
   },
   {
     id: 'playstation',
@@ -122,7 +136,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Entertainment'
   },
   {
     id: 'sony-pictures',
@@ -131,7 +146,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Entertainment'
   },
   {
     id: 'instagram',
@@ -140,7 +156,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Social media'
   },
   {
     id: 'samsung',
@@ -149,7 +166,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Consumer electronics'
   },
   {
     id: 'youtube',
@@ -158,7 +176,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Social media'
   },
   {
     id: 'twitter',
@@ -167,7 +186,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Social media'
   },
   {
     id: 'hp',
@@ -176,7 +196,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Consumer electronics'
   },
   {
     id: 'intel',
@@ -185,7 +206,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Consumer electronics'
   },
   {
     id: 'ericsson',
@@ -193,7 +215,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Consumer electronics'
   },
   {
     id: 'lenovo',
@@ -201,7 +224,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Consumer electronics'
   },
   {
     id: 'amd',
@@ -209,7 +233,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Consumer electronics'
   },
   {
     id: 'nokia',
@@ -217,7 +242,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Consumer electronics'
   },
   {
     id: 'dhl',
@@ -225,7 +251,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Logistics'
   },
   {
     id: 'fedex',
@@ -233,7 +260,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Logistics'
   },
   {
     id: 'ups',
@@ -241,7 +269,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Logistics'
   },
   {
     id: 'maersk',
@@ -249,20 +278,17 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Logistics'
   },
-
-
-
-
-
   {
     id: 'microsoft',
     name: 'Microsoft',
     description: 'Microsoft said it was “horrified” by the situation in Ukraine, and would suspend all new sales of its products and services in Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Tech'
   },
   {
     id: 'apple',
@@ -270,7 +296,8 @@ export default [
     description: 'Apple halted product sales and restricted Apple Pay Russia, disabled Apple Maps in Ukraine, and removed Russian state media outlets from its App Store.',
     status: 0,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Consumer electronics'
   },
   {
     id: 'dell',
@@ -279,7 +306,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Consumer electronics'
   },
   {
     id: 'electronic-arts',
@@ -288,7 +316,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Entertainment'
   },
   {
     id: 'sainsburys',
@@ -296,7 +325,8 @@ export default [
     description: 'Sainsbury’s said it would remove all products that are 100% sourced from Russia, including Russian Standard vodka.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'mango',
@@ -304,7 +334,8 @@ export default [
     description: 'Mango, which employs 800 people in Russia, said it would temporarily close its stores and its online platform.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'ikea',
@@ -312,7 +343,8 @@ export default [
     description: 'Ikea has closed its 17 stores in Russia, which is the Swedish company\'s 10th largest retail market, and has paused sourcing materials from Russia and Belarus.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Other'
   },
   {
     id: 'hm',
@@ -321,7 +353,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Fashion'
   },
   {
     id: 'burberry',
@@ -329,7 +362,8 @@ export default [
     description: 'Burberry has stopped sending products to Russia, but its two flagship stores there remain open for now.',
     status: 0,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'hermes',
@@ -337,7 +371,8 @@ export default [
     description: 'Hermes has temporarily closed its stores in Russia, the first luxury goods giant to do so.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'nike',
@@ -345,7 +380,8 @@ export default [
     description: 'Nike has stopped taking online orders for Russian customers as processing payments becomes more difficult with the imposition of sanctions, but its stores remain open.',
     status: 0,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'adidas',
@@ -354,7 +390,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Fashion'
   },
   {
     id: 'netflix',
@@ -362,7 +399,8 @@ export default [
     description: 'Netflix has temporarily halted all future film and television projects and acquisitions in Russia, and has defied calls from the government to add state news channels to its service.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Entertainment'
   },
   {
     id: 'airbnb',
@@ -370,7 +408,8 @@ export default [
     description: 'Airbnb has suspended all operations in Russia and Belarus, hitting Russia’s 90,000 active short-term rentals on the service.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Travel'
   },
   {
     id: 'spotify',
@@ -378,7 +417,8 @@ export default [
     description: 'Spotify has “indefinitely” closed its Russian offices and removed state-backed media content from its platform.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Entertainment'
   },
   {
     id: 'mercedes',
@@ -386,7 +426,8 @@ export default [
     description: 'Mercedes-Benz Group has halted the sale of cars and vans in Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Automotive'
   },
   {
     id: 'harley-davidson',
@@ -394,7 +435,8 @@ export default [
     description: 'Harley-Davidson has paused the shipment of motorcycles to Russia, saying its thoughts are on the “safety of the people of Ukraine."',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Automotive'
   },
   {
     id: 'bmw',
@@ -403,7 +445,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Automotive'
   },
   {
     id: 'airbus',
@@ -411,7 +454,8 @@ export default [
     description: 'Airbus pledged to cease its support for Russia’s aviation industry, where it maintains aircraft used by the country’s main commercial airlines.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Other'
   },
   {
     id: 'boeing',
@@ -419,7 +463,8 @@ export default [
     description: 'Boeing has said it will suspend parts, maintenance and technical support to Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Other'
   },
   {
     id: 'mastercard',
@@ -428,7 +473,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Payments'
   },
   {
     id: 'visa',
@@ -436,7 +482,8 @@ export default [
     description: 'Visa said on March 5 that it would temporarily halt business in Russia, effective immediately, with all transactions stopping over the course of the next few days. ',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Payments'
   },
   {
     id: 'paypal',
@@ -444,7 +491,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Payments'
   },
 
 
@@ -454,7 +502,8 @@ export default [
     description: 'Disney became the first entertainment giant to pause theatrical releases in Russia on Monday. ',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Entertainment'
   },
   {
     id: 'warner-bros',
@@ -463,7 +512,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Entertainment'
   },
   {
     id: 'expedia',
@@ -471,7 +521,8 @@ export default [
     description: 'Online travel-booking company Expedia ceased the sale of travel into and out of Russia on Wednesday, an Expedia spokesperson confirmed with Insider.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Travel'
   },
   {
     id: 'exxonmobil',
@@ -479,7 +530,8 @@ export default [
     description: 'In a statement on Tuesday, ExxonMobil said it would begin the process to discontinue operations and develop steps to exit the Sakhalin-1 venture, a project it operates on behalf of an international consortium of Japanese, Indian, and Russian companies.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Oil & Gas'
   },
   {
     id: 'general-motors',
@@ -487,7 +539,8 @@ export default [
     description: 'GM is pulling from Russia "due to a number of external factors, including supply chain issues and other matters beyond the company\'s control," a spokesperson said.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Automotive'
   },
   {
     id: 'bp',
@@ -496,7 +549,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Oil & Gas'
   },
   {
     id: 'louis-vuitton',
@@ -505,7 +559,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Fashion'
   },
   {
     id: 'christian-dior',
@@ -513,7 +568,8 @@ export default [
     description: 'Luxury fashion giant LVMH — which owns several high-end brands including Louis Vuitton, Christian Dior, Fendi, and Givenchy — confirmed to The New York Times on March 4 that it will temporarily shutter its stores in Russia "given the current circumstances in the region."',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'givenchy',
@@ -521,7 +577,8 @@ export default [
     description: 'Luxury fashion giant LVMH — which owns several high-end brands including Louis Vuitton, Christian Dior, Fendi, and Givenchy — confirmed to The New York Times on March 4 that it will temporarily shutter its stores in Russia "given the current circumstances in the region."',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'gucci',
@@ -529,7 +586,8 @@ export default [
     description: 'Kering, the conglomerate behind luxury brands such as Gucci, Saint Laurent, Bottega Veneta, and Balenciaga, announced in a statement on March 4 that it is temporarily closing all stores in Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'bottega-veneta',
@@ -537,7 +595,8 @@ export default [
     description: 'Kering, the conglomerate behind luxury brands such as Gucci, Saint Laurent, Bottega Veneta, and Balenciaga, announced in a statement on March 4 that it is temporarily closing all stores in Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'balenciaga',
@@ -545,7 +604,8 @@ export default [
     description: 'Kering, the conglomerate behind luxury brands such as Gucci, Saint Laurent, Bottega Veneta, and Balenciaga, announced in a statement on March 4 that it is temporarily closing all stores in Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'chanel',
@@ -553,7 +613,8 @@ export default [
     description: '"We will no longer deliver into Russia, we will close our boutiques, and we already suspended our e-commerce," Chanel wrote in a LinkedIn post on March 4. ',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'zara',
@@ -561,7 +622,8 @@ export default [
     description: 'Inditex, the largest global fashion company and owner of the fast-fashion brand Zara, told Reuters on March 5 it will temporarily halt all business with Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'american-express',
@@ -570,7 +632,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Payments'
   },
   {
     id: 'tiktok',
@@ -579,7 +642,8 @@ export default [
     status: 1,
     twitter: '',
     facebook: '',
-    small: true
+    small: true,
+    category: 'Social media'
   },
   {
     id: 'puma',
@@ -587,7 +651,8 @@ export default [
     description: 'Sportswear giant Puma has temporarily closed all of its 100 stores in Russia. A spokesperson for the company confirmed to Insider that all of its employees in Russia will continue to be paid in full.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'prada',
@@ -595,7 +660,8 @@ export default [
     description: 'Italian luxury brand Prada has temporarily shut down all of its retail operations in Russia.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Fashion'
   },
   {
     id: 'pwc',
@@ -603,7 +669,8 @@ export default [
     description: 'Accountancy giant PwC said in a statement Sunday that it is cutting ties with the Russian arm of its business, where it has 3,700 staff and partners. PwC Russia will now operate as a standalone company under a different name with no official link to PwC. ',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Other'
   },
   {
     id: 'kpmg',
@@ -611,7 +678,8 @@ export default [
     description: 'KPMG, another accountancy giant, announced similar changes to its rival PwC on Sunday. The company said its Russia and Belarus firms will leave the KPMG network, which employs more than 4,500 people.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Other'
   },
   {
     id: 'lego',
@@ -619,7 +687,8 @@ export default [
     description: 'Lego has stopped shipping toys to 81 stores in Russia, Bloomberg reported Monday.',
     status: 1,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Entertainment'
   },
   {
     id: 'audi',
@@ -627,7 +696,8 @@ export default [
     description: '',
     status: 0,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Automotive'
   },
   {
     id: 'volkswagen',
@@ -635,7 +705,8 @@ export default [
     description: '',
     status: 0,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Automotive'
   },
   {
     id: 'volvo',
@@ -643,6 +714,16 @@ export default [
     description: '',
     status: 0,
     twitter: '',
-    facebook: ''
+    facebook: '',
+    category: 'Automotive'
+  },
+  {
+    id: 'shell',
+    name: 'Shell',
+    description: '',
+    status: 0,
+    twitter: '',
+    facebook: '',
+    category: 'Oil & Gas'
   }
 ]

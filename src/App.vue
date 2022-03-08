@@ -24,8 +24,11 @@
         Closed or limited
       </h2>
 
-      <div class="tiles">
-        <Brand v-for="brand in limitedBrands" :key="brand.id" :brand="brand" />
+      <div v-for="(category, index) in brandsByCategory" :key="index" class="mb-16 md:mb-32">
+        <h3 class="text-lg md:text-2xl font-bold mb-8 md:mb-16">{{ index }}</h3>
+        <div class="tiles">
+          <Brand v-for="brand in category" :key="brand.id" :brand="brand" />
+        </div>
       </div>
     </div>
     <div class="footer wrapper border-t bg-yellow-200 flex items-center justify-between">
@@ -51,6 +54,7 @@
 </template>
 
 <script>
+import groupBy from 'lodash/groupBy'
 import brands from '@/constants/brands'
 import Brand from '@/components/Brand.vue'
 export default {
@@ -70,6 +74,9 @@ export default {
     },
     limitedBrands() {
       return brands.filter(({ status }) => status !== -1)
+    },
+    brandsByCategory() {
+      return groupBy(this.limitedBrands, 'category')
     }
   }
 };
