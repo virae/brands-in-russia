@@ -1,7 +1,7 @@
 export default [
   {
     id: 'coca-cola',
-    name: 'Coca Cola',
+    name: 'Coca-Cola',
     description: '',
     status: -1,
     twitter: 'cocacola',
@@ -40,6 +40,42 @@ export default [
     description: '',
     status: -1,
     twitter: 'uniqlousa',
+    facebook: '',
+    small: true
+  },
+  {
+    id: 'danone',
+    name: 'Danone',
+    description: '',
+    status: -1,
+    twitter: 'danone',
+    facebook: '',
+    small: true
+  },
+  {
+    id: 'nestle',
+    name: 'Nestlé',
+    description: '',
+    status: -1,
+    twitter: 'Nestle',
+    facebook: '',
+    small: true
+  },
+  {
+    id: 'metro',
+    name: 'Metro',
+    description: '',
+    status: -1,
+    twitter: 'Metro Cash & Carry',
+    facebook: '',
+    small: true
+  },
+  {
+    id: 'pirelli',
+    name: 'Pirelli',
+    description: '',
+    status: -1,
+    twitter: 'pirellisport',
     facebook: '',
     small: true
   },
