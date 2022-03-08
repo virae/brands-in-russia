@@ -1,21 +1,11 @@
 export default [
   {
-    id: 'coca-cola',
-    name: 'Coca-Cola',
-    description: '',
-    status: -1,
-    twitter: 'cocacola',
-    facebook: '',
-    small: true
-  },
-  {
     id: 'mcdonalds',
     name: 'McDonald\'s',
     description: '',
     status: -1,
     twitter: 'mcdonalds',
-    facebook: '',
-    small: true
+    facebook: ''
   },
   {
     id: 'kfc',
@@ -26,13 +16,28 @@ export default [
     facebook: ''
   },
   {
+    id: 'coca-cola',
+    name: 'Coca-Cola',
+    description: '',
+    status: -1,
+    twitter: 'cocacola',
+    facebook: ''
+  },
+  {
+    id: 'pepsi',
+    name: 'PepsiCo',
+    description: '',
+    status: -1,
+    twitter: 'pepsico',
+    facebook: ''
+  },
+  {
     id: 'unilever',
     name: 'Unilever',
     description: '',
     status: -1,
     twitter: 'unilever',
-    facebook: '',
-    small: true
+    facebook: ''
   },
   {
     id: 'uniqlo',
@@ -40,8 +45,7 @@ export default [
     description: '',
     status: -1,
     twitter: 'uniqlousa',
-    facebook: '',
-    small: true
+    facebook: ''
   },
   {
     id: 'danone',
@@ -49,8 +53,7 @@ export default [
     description: '',
     status: -1,
     twitter: 'danone',
-    facebook: '',
-    small: true
+    facebook: ''
   },
   {
     id: 'nestle',
@@ -58,8 +61,7 @@ export default [
     description: '',
     status: -1,
     twitter: 'Nestle',
-    facebook: '',
-    small: true
+    facebook: ''
   },
   {
     id: 'metro',
@@ -67,8 +69,7 @@ export default [
     description: '',
     status: -1,
     twitter: 'Metro Cash & Carry',
-    facebook: '',
-    small: true
+    facebook: ''
   },
   {
     id: 'pirelli',
@@ -76,17 +77,7 @@ export default [
     description: '',
     status: -1,
     twitter: 'pirellisport',
-    facebook: '',
-    small: true
-  },
-  {
-    id: 'represent',
-    name: 'Represent',
-    description: '',
-    status: 1,
-    twitter: '',
-    facebook: '',
-    small: true
+    facebook: ''
   },
   {
     id: 'google',
@@ -630,29 +621,28 @@ export default [
     twitter: '',
     facebook: ''
   },
-  // {
-  //   id: 'audi',
-  //   name: 'Audi',
-  //   description: '',
-  //   status: 0,
-  //   twitter: '',
-  //   facebook: ''
-  // },
-  // {
-  //   id: 'volkswagen',
-  //   name: 'Volkswagen',
-  //   description: '',
-  //   status: 0,
-  //   twitter: '',
-  //   facebook: ''
-  // },
-  // {
-  //   id: 'volvo',
-  //   name: 'Volvo',
-  //   description: '',
-  //   status: 0,
-  //   twitter: '',
-  //   facebook: ''
-  // }
-
+  {
+    id: 'audi',
+    name: 'Audi',
+    description: '',
+    status: 0,
+    twitter: '',
+    facebook: ''
+  },
+  {
+    id: 'volkswagen',
+    name: 'Volkswagen',
+    description: '',
+    status: 0,
+    twitter: '',
+    facebook: ''
+  },
+  {
+    id: 'volvo',
+    name: 'Volvo',
+    description: '',
+    status: 0,
+    twitter: '',
+    facebook: ''
+  }
 ]
