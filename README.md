@@ -1,4 +1,6 @@
-# brands-for-ukraine
+# Brands in Russia
+
+Growing, but incomplete list of companies and brands that closed their business in Russia and those that decided to keep their business open.
 
 ## Project setup
 ```
