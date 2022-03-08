@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  @apply leading-none font-semibold max-w-5xl;
+  font-size: 3rem;
+
+  @screen md {
+    font-size: 4rem;
+  }
+
+  @screen lg {
+    font-size: 6rem;
+  }
+
+  @screen xl {
+    font-size: 8rem;
+  }
+}
+h2 {
+  @apply max-w-5xl mb-8 leading-none font-semibold;
+
+  font-size: 2rem;
+
+  @screen md {
+    @apply mb-16;
+    font-size: 3rem;
+  }
+
+  @screen lg {
+    font-size: 4rem;
+  }
+
+  @screen xl {
+    @apply mb-32;
+    font-size: 5rem;
+  }
+}
+.tiles {
+  @apply grid grid-cols-3 gap-x-16 gap-y-16;
+
+  @screen md {
+    @apply grid-cols-3 gap-x-16 gap-y-8;
+  }
+
+  @screen lg {
+    @apply grid-cols-4 gap-x-16 gap-y-16;
+  }
+
+  @screen xl {
+    @apply grid-cols-6 gap-x-16 gap-y-16;
+  }
+
+  @screen 2xl {
+    @apply grid-cols-8 gap-x-16 gap-y-16;
+  }
+
+  @screen 3xl {
+    @apply grid-cols-8 gap-x-32 gap-y-32;
+  }
+
+  @screen 4xl {
+    @apply grid-cols-8 gap-x-48 gap-y-32;
+  }
+}
+.wrapper {
+  @apply p-8;
+
+  @screen sm {
+    @apply p-12;
+  }
+
+  @screen md {
+    @apply p-16;
+  }
+
+  @screen lg {
+    @apply p-24;
+  }
+
+  @screen xl {
+    @apply p-32;
+  }
+}
+.footer {
+  @apply py-16;
+}
