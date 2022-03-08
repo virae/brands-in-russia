@@ -711,7 +711,7 @@ export default [
   {
     id: 'mcdonalds',
     name: 'McDonald\'s',
-    description: 'McDonald\’s said Tuesday it is temporarily closing all of its 850 restaurants in Russia in response to the country’s invasion of Ukraine. The burger giant said it will continue paying its 62,000 employees in Russia “who have poured their heart and soul into our McDonald’s brand.” But in an open letter to employees, McDonald’s President and CEO Chris Kempckinski said closing those stores for now is the right thing to do.',
+    description: 'McDonald\'s said Tuesday it is temporarily closing all of its 850 restaurants in Russia in response to the country’s invasion of Ukraine. The burger giant said it will continue paying its 62,000 employees in Russia “who have poured their heart and soul into our McDonald’s brand.” But in an open letter to employees, McDonald’s President and CEO Chris Kempckinski said closing those stores for now is the right thing to do.',
     status: 1,
     twitter: 'mcdonalds',
     facebook: '',
