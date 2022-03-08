@@ -2,6 +2,11 @@
 
 Growing, but incomplete list of companies and brands that closed their business in Russia and those that decided to keep their business open.
 
+## How to contribute?
+```
+Add a record to `src/constants/brands` and brand logo (.png) to the `public/brands/optimized` folder
+```
+
 ## Project setup
 ```
 yarn install
