@@ -1,0 +1,5 @@
+for file in *.png; do
+   echo -n Converting ${file}...
+   convert -resize 640x640^ "$file" "$file"
+   echo done
+done
