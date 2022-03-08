@@ -1,39 +1,30 @@
 export default [
   {
-    id: 'kfc',
-    name: 'KFC',
-    description: '',
-    status: -1,
-    twitter: 'kfc',
-    facebook: '',
-    category: ''
-  },
-  {
     id: 'coca-cola',
     name: 'Coca-Cola',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'cocacola',
     facebook: '',
-    category: ''
+    category: 'Food & Beverages'
   },
   {
     id: 'pepsi',
     name: 'PepsiCo',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'pepsico',
     facebook: '',
-    category: ''
+    category: 'Food & Beverages'
   },
   {
     id: 'unilever',
     name: 'Unilever',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'unilever',
     facebook: '',
-    category: ''
+    category: 'Other'
   },
   {
     id: 'uniqlo',
@@ -725,5 +716,14 @@ export default [
     twitter: 'danone',
     facebook: '',
     category: 'Food & Beverages'
-  }
+  },
+  {
+    id: 'kfc',
+    name: 'KFC',
+    description: '',
+    status: 1,
+    twitter: 'kfc',
+    facebook: '',
+    category: 'Food & Beverages'
+  },
 ]
