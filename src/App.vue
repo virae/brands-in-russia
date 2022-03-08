@@ -49,8 +49,7 @@
         &nbsp;&nbsp;
         Something is wrong? <a href="mailto:hello@brandsinrussia.com" class="font-semibold text-blue-500">Let us know</a>.
       </p>
-      <a href="https://www.producthunt.com/posts/brands-in-russia?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-brands&#0045;in&#0045;russia" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=335041&theme=light" alt="Brands&#0032;in&#0032;Russia - Is&#0032;your&#0032;favorite&#0032;brand&#0032;still&#0032;open&#0032;for&#0032;business&#0032;in&#0032;Russia&#0063; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-      <div class="flex space-x-4 items-center">
+      <div class="flex space-x-8 items-center">
         <div>
           <a href="https://github.com/virae/brands-in-russia" target="_blank" title="Open on Github">
             <svg width="32" height="32" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,6 +57,7 @@
             </svg>
           </a>
         </div>
+        <a href="https://www.producthunt.com/posts/brands-in-russia?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-brands&#0045;in&#0045;russia" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=335041&theme=dark" alt="Brands&#0032;in&#0032;Russia - Is&#0032;your&#0032;favorite&#0032;brand&#0032;still&#0032;open&#0032;for&#0032;business&#0032;in&#0032;Russia&#0063; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
       </div>
     </div>
   </div>
