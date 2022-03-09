@@ -106,6 +106,14 @@ export default [
     category: ''
   },
   {
+    id: 'booking',
+    name: 'Booking',
+    description: '',
+    status: 1,
+    twitter: 'Travel',
+    category: ''
+  },
+  {
     id: 'honeywell',
     name: 'Honeywell',
     description: '',
