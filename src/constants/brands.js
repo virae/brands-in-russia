@@ -16,20 +16,11 @@ export default [
     category: ''
   },
   {
-    id: 'bridgestone',
-    name: 'Bridgestone',
+    id: 'nestle',
+    name: 'Nestlé',
     description: '',
     status: -1,
-    twitter: 'Bridgestone',
-    category: ''
-  },
-  {
-    id: 'caterpillar',
-    name: 'Caterpillar',
-    description: '',
-    status: -1,
-    twitter: 'caterpillarinc',
-    small: true,
+    twitter: 'Nestle',
     category: ''
   },
   {
@@ -39,6 +30,15 @@ export default [
     status: -1,
     twitter: 'InsidePMI',
     category: ''
+  },
+  {
+    id: 'uniqlo',
+    name: 'Uniqlo',
+    description: '',
+    status: -1,
+    twitter: 'uniqlousa',
+    category: '',
+    small: true
   },
   {
     id: 'papa-johns',
@@ -54,22 +54,6 @@ export default [
     description: '',
     status: -1,
     twitter: 'kelloggsus',
-    category: ''
-  },
-  {
-    id: 'honeywell',
-    name: 'Honeywell',
-    description: '',
-    status: -1,
-    twitter: 'honeywell',
-    category: ''
-  },
-  {
-    id: 'hilton',
-    name: 'Hilton',
-    description: '',
-    status: -1,
-    twitter: 'hiltonhotels',
     category: ''
   },
   {
@@ -105,15 +89,6 @@ export default [
     category: 'Other'
   },
   {
-    id: 'uniqlo',
-    name: 'Uniqlo',
-    description: '',
-    status: -1,
-    twitter: 'uniqlousa',
-    category: '',
-    small: true
-  },
-  {
     id: 'citi',
     name: 'Citi',
     description: '',
@@ -122,19 +97,36 @@ export default [
     category: ''
   },
   {
-    id: 'nestle',
-    name: 'Nestlé',
-    description: '',
-    status: -1,
-    twitter: 'Nestle',
-    category: ''
-  },
-  {
     id: 'metro',
     name: 'Metro',
     description: '',
     status: -1,
     twitter: 'Metro Cash & Carry',
+    category: ''
+  },
+  {
+    id: 'honeywell',
+    name: 'Honeywell',
+    description: '',
+    status: -1,
+    twitter: 'honeywell',
+    category: ''
+  },
+  {
+    id: 'caterpillar',
+    name: 'Caterpillar',
+    description: '',
+    status: -1,
+    twitter: 'caterpillarinc',
+    small: true,
+    category: ''
+  },
+  {
+    id: 'bridgestone',
+    name: 'Bridgestone',
+    description: '',
+    status: -1,
+    twitter: 'Bridgestone',
     category: ''
   },
   {
@@ -326,12 +318,12 @@ export default [
     category: 'Logistics'
   },
   {
-    id: 'accor',
-    name: 'Accor',
+    id: 'hilton',
+    name: 'Hilton',
     description: '',
     status: -1,
-    twitter: 'Accor',
-    category: 'Hotels'
+    twitter: 'hiltonhotels',
+    category: ''
   },
   {
     id: 'marriott',
@@ -355,6 +347,14 @@ export default [
     description: '',
     status: -1,
     twitter: 'InterConHotels',
+    category: 'Hotels'
+  },
+  {
+    id: 'accor',
+    name: 'Accor',
+    description: '',
+    status: -1,
+    twitter: 'Accor',
     category: 'Hotels'
   },
   {
