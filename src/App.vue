@@ -15,7 +15,7 @@
         Open in Russia
       </h2>
       <p class="mb-8 md:mb-16 xl:mb-24 text-lg text-gray-600 flex items-center">
-        <svg height="18" width="18" viewBox="0 0 100 100" class="text-green-600 hidden md:block mr-2">
+        <svg height="18" width="18" viewBox="0 0 100 100" class="text-green-600 hidden md:block mr-2 blink">
           <circle cx="50" cy="50" r="40" fill="currentColor" />
         </svg>
         <span>Brands and companies open or operating in Russia</span>
@@ -30,7 +30,7 @@
         Closed or limited
       </h2>
       <p class="mb-8 md:mb-16 xl:mb-24 text-lg text-gray-600 flex items-center">
-        <svg height="18" width="18" viewBox="0 0 100 100" class="text-red-600 hidden md:block mr-2">
+        <svg height="18" width="18" viewBox="0 0 100 100" class="text-red-600 hidden md:block mr-2 blink">
           <circle cx="50" cy="50" r="40" fill="currentColor" />
         </svg>
         <span>Brands and companies closed or with limited business presence in Russia.</span>

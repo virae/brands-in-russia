@@ -92,3 +92,12 @@ h3 {
 .footer {
   @apply py-16;
 }
+
+.blink {
+  animation: blink 1.2s infinite cubic-bezier(0, 0, 0.2, 1);
+}
+@keyframes blink {
+  50% {
+    opacity: 50%;
+  }
+}
