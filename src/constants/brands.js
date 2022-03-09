@@ -365,13 +365,40 @@ export default [
     category: 'Logistics'
   },
   {
-    id: 'microsoft',
-    name: 'Microsoft',
-    description: 'Microsoft said it was “horrified” by the situation in Ukraine, and would suspend all new sales of its products and services in Russia.',
-    status: 1,
-    twitter: '',
+    id: 'accor',
+    name: 'Accor',
+    description: '',
+    status: -1,
+    twitter: 'Accor',
     facebook: '',
-    category: 'Tech'
+    category: 'Hotels'
+  },
+  {
+    id: 'marriott',
+    name: 'Marriott',
+    description: '',
+    status: -1,
+    twitter: 'marriott',
+    facebook: '',
+    category: 'Hotels'
+  },
+  {
+    id: 'hyatt',
+    name: 'Hyatt',
+    description: '',
+    status: -1,
+    twitter: 'Hyatt',
+    facebook: '',
+    category: 'Hotels'
+  },
+  {
+    id: 'intercontinental',
+    name: 'Inter-continental',
+    description: '',
+    status: -1,
+    twitter: 'InterConHotels',
+    facebook: '',
+    category: 'Hotels'
   },
   {
     id: 'apple',
