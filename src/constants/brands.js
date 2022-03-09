@@ -786,4 +786,61 @@ export default [
     twitter: 'kfc',
     category: 'Food & Beverages'
   },
+
+  {
+    id: 'white-case',
+    name: 'White & Case',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Other'
+  },
+  {
+    id: 'universal',
+    name: 'Universal',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Entertainment'
+  },
+  {
+    id: 'under-armour',
+    name: 'Under Armour',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Fashion'
+  },
+  {
+    id: 'uber',
+    name: 'Uber',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Travel'
+  },
+  {
+    id: 'uefa',
+    name: 'UEFA',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Sports'
+  },
+  {
+    id: 'fifa',
+    name: 'FIFA',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Sports'
+  },
+  {
+    id: 'nhl',
+    name: 'NHL',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Sports'
+  },
 ]
