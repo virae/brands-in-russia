@@ -94,7 +94,8 @@ export default [
     description: '',
     status: -1,
     twitter: 'Citi',
-    category: ''
+    category: '',
+    small: true
   },
   {
     id: 'metro',
@@ -283,7 +284,8 @@ export default [
     description: '',
     status: 1,
     twitter: 'nvidia',
-    category: 'Consumer electronics'
+    category: 'Consumer electronics',
+    small: true
   },
   {
     id: 'amd',
@@ -323,7 +325,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    category: 'Logistics'
+    category: 'Logistics',
+    small: true
   },
   {
     id: 'maersk',
@@ -503,7 +506,8 @@ export default [
     description: 'Harley-Davidson has paused the shipment of motorcycles to Russia, saying its thoughts are on the “safety of the people of Ukraine."',
     status: 1,
     twitter: '',
-    category: 'Automotive'
+    category: 'Automotive',
+    small: true
   },
   {
     id: 'bmw',
@@ -545,7 +549,8 @@ export default [
     description: 'Visa said on March 5 that it would temporarily halt business in Russia, effective immediately, with all transactions stopping over the course of the next few days. ',
     status: 1,
     twitter: '',
-    category: 'Payments'
+    category: 'Payments',
+    small: true
   },
   {
     id: 'paypal',
@@ -809,7 +814,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    category: 'Fashion'
+    category: 'Fashion',
+    small: true
   },
   {
     id: 'uber',
@@ -817,7 +823,8 @@ export default [
     description: '',
     status: 1,
     twitter: '',
-    category: 'Travel'
+    category: 'Travel',
+    small: true
   },
   {
     id: 'uefa',

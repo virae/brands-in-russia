@@ -40,7 +40,11 @@ h3 {
 }
 
 .tiles {
-  @apply grid grid-cols-3 gap-x-16 gap-y-8;
+  @apply grid grid-cols-2 gap-x-16 gap-y-8;
+
+  @screen sm {
+    @apply grid-cols-3;
+  }
 
   @screen md {
     @apply grid-cols-3 gap-x-16 gap-y-8;
@@ -55,11 +59,11 @@ h3 {
   }
 
   @screen 2xl {
-    @apply grid-cols-8 gap-x-16;
+    @apply grid-cols-7 gap-x-16;
   }
 
   @screen 3xl {
-    @apply grid-cols-8 gap-x-32;
+    @apply grid-cols-7 gap-x-32;
   }
 
   @screen 4xl {

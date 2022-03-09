@@ -39,7 +39,7 @@ export default {
   }
 
   &--small .Brand__image {
-    @apply h-24;
+    @apply h-24 mt-4;
   }
 
   &__logo {
