@@ -52,9 +52,9 @@ export default [
     id: 'kelloggs',
     name: 'Kellogg\'s',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'kelloggsus',
-    category: ''
+    category: 'Food & Beverages'
   },
   {
     id: 'herbalife',
@@ -109,9 +109,9 @@ export default [
     id: 'honeywell',
     name: 'Honeywell',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'honeywell',
-    category: ''
+    category: 'Other'
   },
   {
     id: 'caterpillar',
