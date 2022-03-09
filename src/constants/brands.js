@@ -19,17 +19,17 @@ export default [
     id: 'nestle',
     name: 'Nestlé',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'Nestle',
-    category: ''
+    category: 'Food & Beverages'
   },
   {
     id: 'philip-morris',
     name: 'Philip Morris',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'InsidePMI',
-    category: ''
+    category: 'Other'
   },
   {
     id: 'uniqlo',
