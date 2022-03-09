@@ -562,6 +562,15 @@ export default [
     small: true
   },
   {
+    id: 'jcb',
+    name: 'JCB',
+    description: 'On March 8, JCB published a statement about the suspension of activities in Russia.',
+    status: 1,
+    twitter: '',
+    category: 'Payments',
+    small: true
+  },
+  {
     id: 'paypal',
     name: 'PayPal',
     description: '',
