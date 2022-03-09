@@ -122,12 +122,28 @@ export default [
     category: ''
   },
   {
+    id: 'citrix',
+    name: 'Citrix',
+    description: '',
+    status: -1,
+    twitter: 'citrix',
+    category: 'Tech'
+  },
+  {
+    id: 'whirpool',
+    name: 'Whirpool',
+    description: '',
+    status: -1,
+    twitter: 'WhirlpoolCorp',
+    category: 'Consumer electronics'
+  },
+  {
     id: 'bridgestone',
     name: 'Bridgestone',
     description: '',
     status: -1,
     twitter: 'Bridgestone',
-    category: ''
+    category: 'Other'
   },
   {
     id: 'pirelli',
