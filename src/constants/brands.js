@@ -123,6 +123,15 @@ export default [
     category: ''
   },
   {
+    id: 'lush',
+    name: 'LUSH',
+    description: '',
+    status: -1,
+    twitter: 'lushcosmetics',
+    small: true,
+    category: ''
+  },
+  {
     id: 'citrix',
     name: 'Citrix',
     description: '',
