@@ -110,8 +110,8 @@ export default [
     name: 'Booking',
     description: '',
     status: 1,
-    twitter: 'Travel',
-    category: ''
+    twitter: '',
+    category: 'Travel'
   },
   {
     id: 'honeywell',
