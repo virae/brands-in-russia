@@ -1,10 +1,38 @@
 export default [
   {
+    id: 'starbucks',
+    name: 'Starbucks',
+    description: '',
+    status: 1,
+    twitter: 'Starbucks',
+    facebook: '',
+    category: 'Food & Beverages'
+  },
+  {
     id: 'mondelez',
     name: 'Mondelez',
     description: '',
     status: -1,
     twitter: 'MDLZ',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'bridgestone',
+    name: 'Bridgestone',
+    description: '',
+    status: -1,
+    twitter: 'Bridgestone',
+    facebook: '',
+    category: ''
+  },
+  {
+    id: 'caterpillar',
+    name: 'Caterpillar',
+    description: '',
+    status: -1,
+    twitter: 'caterpillarinc',
+    small: true,
     facebook: '',
     category: ''
   },
@@ -95,6 +123,16 @@ export default [
     description: '',
     status: -1,
     twitter: 'uniqlousa',
+    facebook: '',
+    category: '',
+    small: true
+  },
+  {
+    id: 'citi',
+    name: 'Citi',
+    description: '',
+    status: -1,
+    twitter: 'Citi',
     facebook: '',
     category: ''
   },
@@ -260,6 +298,15 @@ export default [
     description: '',
     status: 1,
     twitter: '',
+    facebook: '',
+    category: 'Consumer electronics'
+  },
+  {
+    id: 'nvidia',
+    name: 'Nvidia',
+    description: '',
+    status: 1,
+    twitter: 'nvidia',
     facebook: '',
     category: 'Consumer electronics'
   },

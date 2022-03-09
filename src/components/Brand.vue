@@ -1,7 +1,10 @@
 <template>
   <div class="Brand" :class="{'Brand--small': brand.small}">
     <div class="Brand__image">
-      <img class="Brand__logo" :src="logo" :alt="brand.name" loading="lazy" />
+      <img class="Brand__logo" :src="logo" :alt="brand.description" loading="lazy" />
+    </div>
+    <div class="mt-3 text-sm text-gray-500">
+      {{ brand.name }}
     </div>
     <div v-if="brand.status === -1" class="mt-6 font-bold text-blue-500 cursor-pointer hover:bg-blue-600 px-4 py-1 bg-blue-500 text-white rounded-full border">
       <a :href="twitterProfile" target="_blank">Tweet</a>
