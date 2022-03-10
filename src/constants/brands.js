@@ -588,6 +588,15 @@ export default [
     small: true
   },
   {
+    id: 'westernunion',
+    name: 'Western Union',
+    description: 'On March 10, Western Union suspend operations in Russia and Belarus.',
+    status: 1,
+    twitter: '',
+    category: 'Payments',
+    small: true
+  },
+  {
     id: 'paypal',
     name: 'PayPal',
     description: '',
