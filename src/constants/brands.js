@@ -11,9 +11,9 @@ export default [
     id: 'mondelez',
     name: 'Mondelez',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'MDLZ',
-    category: ''
+    category: 'Food & Beverages'
   },
   {
     id: 'nestle',
@@ -35,9 +35,9 @@ export default [
     id: 'uniqlo',
     name: 'Uniqlo',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'uniqlousa',
-    category: '',
+    category: 'Fashion',
     small: true
   },
   {
@@ -125,10 +125,10 @@ export default [
     id: 'caterpillar',
     name: 'Caterpillar',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'caterpillarinc',
     small: true,
-    category: ''
+    category: 'Industrials'
   },
   {
     id: 'lush',
@@ -805,7 +805,7 @@ export default [
     id: 'danone',
     name: 'Danone',
     description: '',
-    status: -1,
+    status: 1,
     twitter: 'danone',
     category: 'Food & Beverages'
   },
