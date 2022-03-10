@@ -885,6 +885,14 @@ export default [
     category: 'Tech'
   },
   {
+    id: 'cloudflare',
+    name: 'CloudFlare',
+    description: '',
+    status: -1,
+    twitter: '',
+    category: 'Tech'
+  },
+  {
     id: 'deezer',
     name: 'Deezer',
     description: 'can no longer buy subscribstion, also it will be cancelled and not renewable, after it’s cancelled you can not access deezer anymore',
