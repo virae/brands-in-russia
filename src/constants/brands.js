@@ -226,6 +226,15 @@ export default [
     category: 'Entertainment'
   },
   {
+    id: 'rovio',
+    name: 'Rovio',
+    description: 'Rovio removed its games from all stores in Russia and Belarus',
+    status: 1,
+    twitter: 'Rovio',
+    small: true,
+    category: 'Entertainment'
+  },
+  {
     id: 'instagram',
     name: 'Instagram',
     description: '',
