@@ -43,10 +43,10 @@ export default [
   {
     id: 'papa-johns',
     name: 'Papa John\'s',
-    description: '',
-    status: -1,
+    description: 'Stops Investments for Russian franchisees',
+    status: 1,
     twitter: 'PapaJohns',
-    category: ''
+    category: 'Food & Beverages'
   },
   {
     id: 'kelloggs',
@@ -875,5 +875,133 @@ export default [
     status: 1,
     twitter: '',
     category: 'Sports'
+  },
+  {
+    id: 'namecheap',
+    name: 'NameCheap',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Tech'
+  },
+  {
+    id: 'cloudflare',
+    name: 'CloudFlare',
+    description: '',
+    status: -1,
+    twitter: '',
+    category: 'Tech'
+  },
+  {
+    id: 'deezer',
+    name: 'Deezer',
+    description: 'can no longer buy subscribstion, also it will be cancelled and not renewable, after it’s cancelled you can not access deezer anymore',
+    status: 1,
+    twitter: '',
+    category: 'Entertainment'
+  },
+  {
+    id: 'supercell',
+    name: 'Supercell',
+    description: 'deleted games from Russian Google Play and Appstore, also will block russian players',
+    status: 1,
+    twitter: '',
+    category: 'Entertainment'
+  },
+  {
+    id: 'steam',
+    name: 'Steam',
+    description: 'can`t to top balance directly, some games is unavalible to download & play',
+    status: 1,
+    twitter: '',
+    category: 'Entertainment'
+  },
+  {
+    id: 'epic-games',
+    name: 'Epic Games',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Entertainment'
+  },
+  {
+    id: 'siemens',
+    name: 'Siemens',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Consumer electronics'
+  },
+  {
+    id: 'facebook',
+    name: 'Facebook',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Social media'
+  },
+  {
+    id: 'MIR',
+    name: 'MIR',
+    description: 'Russian payment system',
+    status: -1,
+    twitter: 'mirpaycard',
+    category: 'Payments'
+  },
+  {
+    id: 'IVI',
+    name: 'IVI',
+    description: '',
+    status: -1,
+    twitter: 'ivi_ru',
+    category: 'Entertainment'
+  },
+  {
+    id: 'ubisoft',
+    name: 'Ubisoft',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Entertainment'
+  },
+  {
+    id: 'microsoft',
+    name: 'Microsoft',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Tech'
+  },
+  {
+    id: 'IBM',
+    name: 'IBM',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Tech'
+  },
+  {
+    id: 'upwork',
+    name: 'UPWork',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Other'
+  },
+  {
+    id: 'LetyShops',
+    name: 'LetyShops',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Other'
+  },
+  {
+    id: 'megogo',
+    name: 'Megogo',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Entertainment'
   },
 ]
