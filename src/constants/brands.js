@@ -155,7 +155,6 @@ export default [
     twitter: 'WhirlpoolCorp',
     category: 'Consumer electronics'
   },
-
   {
     id: 'ecco',
     name: 'ECCO',
@@ -904,4 +903,20 @@ export default [
     twitter: '',
     category: 'Sports'
   },
+  {
+    id: 'rovio',
+    name: 'Rovio',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Tech'
+  },
+  {
+    id: 'western-union',
+    name: 'Western Union',
+    description: '',
+    status: 1,
+    twitter: '',
+    category: 'Payments'
+  }
 ]
