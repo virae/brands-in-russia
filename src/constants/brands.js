@@ -155,6 +155,34 @@ export default [
     twitter: 'WhirlpoolCorp',
     category: 'Consumer electronics'
   },
+
+  {
+    id: 'ecco',
+    name: 'ECCO',
+    description: '',
+    status: -1,
+    twitter: 'eccoshoes',
+    category: '',
+    small: true
+  },
+  {
+    id: 'oriflame',
+    name: 'Oriflame',
+    description: '',
+    status: -1,
+    twitter: 'OriflameEs',
+    category: '',
+    small: true
+  },
+  {
+    id: 'mohawk',
+    name: 'Mohawk Industries',
+    description: '',
+    status: -1,
+    twitter: 'Mohawk Industries',
+    category: '',
+    small: true
+  },
   {
     id: 'bridgestone',
     name: 'Bridgestone',
