@@ -19,7 +19,7 @@ export default [
     id: 'nestle',
     name: 'Nestlé',
     description: '',
-    status: 1,
+    status: -1,
     twitter: 'Nestle',
     category: 'Food & Beverages'
   },
