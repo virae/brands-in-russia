@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://som.yale.edu/story/2022/over-1000-companies-have-curtailed-operations-russia-some-remain",
+      "permanent": true
+    }
+  ]
+}
